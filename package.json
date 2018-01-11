@@ -1,0 +1,17 @@
+{
+  "name": "neicon",
+  "version": "1.0.0",
+  "description": "a util that get iconfont source from icon.edu.netease.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "liaobolin",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "commander": "^2.13.0",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2"
+  }
+}
