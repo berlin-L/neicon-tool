@@ -1,11 +1,21 @@
 {
-  "name": "neicon",
+  "name": "neicon-tool",
   "version": "1.0.0",
-  "description": "a util that get iconfont source from icon.edu.netease.com",
+  "description": "an util that get iconfont source from icon.edu.netease.com",
+  "repository": "git@github.com:berlin-L/neicon-tool.git",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
+  "bin": {
+    "neicon-tool": "./bin/neicon-tool.js"
+  },
+  "keywords": [
+    "icon",
+    "neicon",
+    "icon tool"
+  ],
   "author": "liaobolin",
   "license": "ISC",
   "devDependencies": {
