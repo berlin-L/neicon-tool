@@ -2,11 +2,9 @@ let program = require('commander');
 let pkg     = require('../package.json');
 
 program
-    .version(pkg.version);
+    .version(pkg.version)
+    .usage('[options] [value ...]')
+    .option('-c, --config <config>', 'set icon repo config file path')
+    .parse(process.argv);
 
-program
-    .command('start')
-    .description('start fetch resource')
-    .option('-c, --config', 'set icon repo config file path');
-
-module.exports = program.parse(process.argv);
+module.exports = program;

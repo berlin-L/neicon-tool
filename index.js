@@ -6,8 +6,8 @@ let rimraf = require('rimraf');
 let mkdirp = require('mkdirp');
 let program = require('./bin/cli');
 
-console.log(program)
-let configFilePath = path.resolve(__dirname, program.config || 'icon.config.js');
+let configFilePath = path.resolve(program.config || 'icon.config.js');
+console.log('config file path ' + configFilePath);
 let iconRepoConfig = [];
 try {
     iconRepoConfig = require(configFilePath) || {};

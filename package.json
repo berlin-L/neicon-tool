@@ -1,6 +1,6 @@
 {
   "name": "neicon-tool",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "an util that get iconfont source from icon.edu.netease.com",
   "repository": "git@github.com:berlin-L/neicon-tool.git",
   "main": "index.js",
@@ -18,7 +18,7 @@
   ],
   "author": "liaobolin",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "axios": "^0.17.1",
     "commander": "^2.13.0",
     "mkdirp": "^0.5.1",
