@@ -69,7 +69,7 @@ function startGetIcon() {
     let reg0 = /\{(.*?)\}/gi;
 
     for (let i = 0; i < iconRepoConfig.length; i++) {
-        iconRepoConfig[i].url = config.apiUrl.replace(reg0, function ($0, $1) {
+        iconRepoConfig[i].url = (iconRepoConfig[i].apiUrl || config.apiUrl).replace(reg0, function ($0, $1) {
             return iconRepoConfig[i][$1] ? iconRepoConfig[i][$1] : $0
         });
         handle.sendRequest(iconRepoConfig[i]);
