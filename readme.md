@@ -4,7 +4,7 @@
   </a>
   <br>
   <p align="left">
-    neicon-tool is an util that fetch iconfont resource from neicon platform, It's main purpose is to reduce complication for usage when fetch iconfont resource from neicon platform
+    neicon-tool is an util that fetch iconfont resource from neicon platform, Its main purpose is to reduce complication for usage when fetch iconfont resource from neicon platform
   <p>
 </div>
 
@@ -119,7 +119,7 @@ svgSpriteContent
 ```
 
 ## Nofice
-if you want use your `tag` property, you must adapt rules of below
+if you want to use your `tag` property, You must follow the rules below
 
 ```
 fileContent.replace(tag, function ($0, $1, $2) {
