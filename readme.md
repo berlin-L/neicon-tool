@@ -4,7 +4,7 @@
   </a>
   <br>
   <p align="left">
-    neicon-tool is an util that fetch iconfont resource from neicon platform, Its main purpose is to reduce complication for usage when fetch iconfont resource from neicon platform
+    neicon-tool is a util that fetches iconfont resource from neicon platform. Its main purpose is to reduce complication for usage when fetching iconfont resource from neicon platform
   <p>
 </div>
 
@@ -43,7 +43,7 @@ module.exports = [{
 }]
 ```
 
-### add placeholder to your ouput file
+### add a placeholder to your output file
 
 ```html
 <link  name="cssUrl" href="replaceContent">
@@ -56,7 +56,7 @@ neicon-tool
 ```
 
 ### Finish
-you will see the change in your output file like below
+gst
 
 ```html
 <link  name="cssUrl" href="//nos.netease.com/icon/dd7a8e7d8f00054c45e50c4e6c3778e8.css">
